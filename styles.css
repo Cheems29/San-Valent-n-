@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-image: url('descarga.jpg'); /* Cambia 'fondo.jpg' por el nombre de tu imagen */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Ancho del contenedor */
+    max-width: 500px; /* Ancho máximo */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#si {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+#no {
+    background-color: #f44336; /* Rojo */
+    color: white;
+}
