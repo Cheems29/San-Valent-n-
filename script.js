@@ -8,7 +8,7 @@ botonSi.addEventListener('click', () => {
     // Cambiar el contenido del contenedor
     container.innerHTML = `
         <h1>Te amo mucho Ailyn ¡Gracias por ser mi San Valentín! 💖</h1>
-        <p>Sabria que hibas a decir que si Amor</p>
+        <p>Sabria que ibas a decir que si Amor</p>
     `;
 });
 
